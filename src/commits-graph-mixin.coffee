@@ -127,7 +127,7 @@ CommitsGraphMixin =
       colour = getColour(branch)
       style =
         'stroke': colour
-        'stroke-width': @props.lineWidth
+        'strokeWidth': @props.lineWidth
         'fill': 'none'
 
     classes = "commits-graph-branch-#{branch}"
@@ -174,7 +174,7 @@ CommitsGraphMixin =
         strokeWidth = 1
       style =
         'stroke': strokeColour
-        'stroke-width': strokeWidth
+        'strokeWidth': strokeWidth
         'fill': colour
 
     selectedClass = 'selected' if @props.selected
